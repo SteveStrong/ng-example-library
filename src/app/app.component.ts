@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.serviceData = this.ngExampleLibraryService.getData();
 
-    let steve = new Steve();
+    const steve = new Steve();
     this.myName  = steve.fullName();
   }
 }
